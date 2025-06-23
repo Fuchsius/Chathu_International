@@ -146,7 +146,7 @@ const Parts = () => {
               </select>
             </div>
             <div className="flex items-end mt-7">
-              <Button 
+              <Button
                 onClick={handleSearch}
                 className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-semibold py-2 px-4 rounded-lg shadow-lg transition-all duration-200"
               >
@@ -155,7 +155,7 @@ const Parts = () => {
             </div>
             {hasSearched && (
               <div className="flex items-end">
-                <Button 
+                <Button
                   onClick={clearFilters}
                   variant="outline"
                   className="w-full border-gray-300 text-gray-700 hover:bg-gray-50"
@@ -165,7 +165,7 @@ const Parts = () => {
               </div>
             )}
           </div>
-          
+
           {hasSearched && (
             <div className="mt-4 text-center">
               <p className="text-gray-600 text-lg">

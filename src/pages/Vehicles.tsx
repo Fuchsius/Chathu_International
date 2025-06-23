@@ -27,7 +27,7 @@ const Vehicles = () => {
       transmission: 'Automatic',
       price: 4200000,
       priceDisplay: 'LKR 4,200,000',
-      image: 'https://images.unsplash.com/photo-1563694983011-6f4d90358083?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://www.motortrend.com/uploads/sites/10/2017/12/2018-toyota-prius-two-hatchback-angular-front.png',
       features: ['Hybrid', 'Low Mileage', 'GPS Navigation']
     },
     {
@@ -38,7 +38,7 @@ const Vehicles = () => {
       transmission: 'Manual',
       price: 3800000,
       priceDisplay: 'LKR 3,800,000',
-      image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://di-uploads-pod19.dealerinspire.com/gallatinhondaphase2/uploads/2020/03/2020-Honda-Civic-MLP-Hero.png',
       features: ['Excellent Condition', 'Service Records', 'Low Mileage']
     },
     {
@@ -49,10 +49,10 @@ const Vehicles = () => {
       transmission: 'Automatic',
       price: 5500000,
       priceDisplay: 'LKR 5,500,000',
-      image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://nissan.com.my/v2/wp-content/uploads/2024/05/xt-choose-2.png',
       features: ['4WD', 'Sunroof', 'Leather Seats']
     }
-  ];
+    ];
 
   const handleFilterChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const { name, value } = e.target;
