@@ -183,13 +183,17 @@ const Contact = () => {
               {/* Map Placeholder */}
               <Card className="shadow-xl border-0 rounded-2xl overflow-hidden bg-white">
                 <CardContent className="p-0">
-                  <div className="h-64 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                    <div className="text-center text-gray-500">
-                      <MapPin className="h-12 w-12 mx-auto mb-2 text-gray-400" />
-                      <p className="font-medium">Interactive Map</p>
-                      <p className="text-sm">Location: Colombo 07, Sri Lanka</p>
-                    </div>
-                  </div>
+                  <iframe
+                    title="Chathu International Location"
+                    src="https://www.google.com/maps?q=Colombo+07,+Sri+Lanka&output=embed"
+                    width="100%"
+                    height="256"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-b-2xl"
+                  ></iframe>
                 </CardContent>
               </Card>
             </div>
